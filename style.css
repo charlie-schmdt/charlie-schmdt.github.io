@@ -1,7 +1,62 @@
 body {
     margin: 0 auto;
-    max-width: 70em;
+    max-width: 55em;
     font-family: "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
     padding: 4em 1em;
+    color: #404040
+}
+
+h1 {
+    color: #202020
+}
+
+a {
+    color: #FF4060
+}
+
+footer {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+footer ul {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+footer ul li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+}
+
+li a:hover {
+    background-color: #111
 }
